@@ -1,0 +1,74 @@
+Assignment No: 04 Unit: Unit IV -- Multi-Agent Systems and Collaboration
+Title: Collaborative Multi-Agent Team for Complex Task Completion using CrewAI/AutoGen
+Mapped Course Outcome:
+
+CO4 -- Design collaborative multi-agent systems for complex tasks. (Create)
+
+Objective:
+
+To enable students to design a team of role-based agents that communicate, coordinate, and
+negotiate to jointly solve a complex task, demonstrating multi-agent communication protocols and
+coordination strategies.
+
+Problem Statement:
+
+Using CrewAI or AutoGen, design a multi-agent system of at least 3 role-based agents (e.g.,
+Researcher, Writer/Coder, Reviewer/Critic) that collaborate end-to-end to complete a complex
+task (e.g., researching a topic and producing a technical report, or designing, coding, and
+reviewing a small software feature). The system must include agent-to-agent communication, a
+coordination/negotiation mechanism, and at least one human-in-the-loop checkpoint.
+
+Implementation Tasks:
+
+8. Define roles, goals, and available tools for at least 3 agents (e.g., Researcher, Executor/Coder,
+Reviewer).
+9. Implement an agent communication protocol (message passing or a shared task board)
+between the agents.
+10. Implement a coordination mechanism (sequential hand-off, manager/orchestrator agent,
+or negotiation) to resolve task allocation.
+11. Add a human-in-the-loop checkpoint where a human can approve or reject an agent&#39;s
+intermediate output.
+12. Run the multi-agent system end-to-end on the chosen task and capture the full
+interaction/communication log.
+13. Introduce a conflict scenario (e.g., two agents producing contradictory outputs) and
+document how the system resolves it.
+14. Prepare a 1-page report analysing coordination effectiveness and comparing the result
+against a single-agent baseline.
+
+Tools &amp; Technologies:
+
+Python, CrewAI or AutoGen (Microsoft), an LLM API (OpenAI/Gemini), Jupyter/Google Colab.
+
+Expected Deliverables:
+
+• Multi-agent system code with 3 or more clearly defined roles.
+• Full interaction/communication log for the end-to-end task run.
+• Conflict-resolution test case and its outcome.
+• 1-page comparison report: multi-agent system vs. single-agent baseline.
+• Live demo of the agent team completing the task.
+
+Evaluation Criteria
+Criterion Marks
+
+MIT ADT University, Pune
+
+Role definition and agent setup (3
+or more agents) 2
+Communication protocol
+implementation 2
+Coordination/negotiation
+mechanism and conflict resolution 2
+Human-in-the-loop checkpoint
+and end-to-end task completion 2
+Comparison report and live
+demo/viva 2
+Total 10
+
+Reference / Resources:
+
+• CrewAI official documentation and tutorials
+• AutoGen tutorials (Microsoft) -- https://microsoft.github.io/autogen/
+• Gerhard Weiss, Multi-Agent Systems (Reference Book 4)
+• Unit IV syllabus notes -- Multi-Agent Systems and Collaboration
+
+Faculty Signature: HOD Signature:

@@ -1,0 +1,20 @@
+# Core AutoGen Framework
+autogen-agentchat>=0.4.0
+autogen-core>=0.4.0
+autogen-ext[openai]>=0.4.0
+openai>=1.50.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# UI and Visualization
+streamlit>=1.35.0
+matplotlib>=3.8.0
+pillow>=10.0.0
+reportlab>=4.1.0
+
+# Data and Notebook support
+numpy>=1.26.0
+nbformat>=5.9.0
+ipykernel>=6.29.0
